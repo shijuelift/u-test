@@ -1,11 +1,16 @@
 {
   "scripts": {
     "test": "mocha test/test.js",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter est/test.js"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter est/test.js",
+    "webdriver": "mocha test/webdriver"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
   }
 }
