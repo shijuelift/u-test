@@ -1,3 +1,4 @@
+
 // const {add, mul} = require('./a.js') 
 // if (add(2,3,1) ===5) {
 //   console.log('right')
