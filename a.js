@@ -1,3 +1,4 @@
+//1
 module.exports = {
 	add: (...args) => {
 		return args.reduce((a,b)=> a+b)
